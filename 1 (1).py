@@ -39,8 +39,8 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
                 wendu = input("绝对温度是多少？/ 絕對溫度是多少？/ What is the absolute temperature?\n")
                 fengzi = float(fengzi)
                 wendu = float(wendu)
-              #因为前面是以百万为单位，所以相当于已经乘以10的-6次方
-                osmotic_pressure = total_inflammatory * 0.001 / fengzi * 8.314 * wendu 
+              
+                osmotic_pressure = total_inflammatory * 0.1 / fengzi * 8.314 * wendu 
                 print(f"炎症因子a渗透压{osmotic_pressure} Pa（1分钟以内）")  # 简体
                 print(f"炎症因子a滲透壓{osmotic_pressure} Pa（一分鐘以內")  # 繁体
                 print(f"Osmotic pressure of inflammatory factor a: {osmotic_pressure} Pa（Within a minute.）")  # English
