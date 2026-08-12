@@ -34,13 +34,14 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
             print(f"Inflammatory factor a differs by {o} million, total: {total_inflammatory} million")  # English
 
             d = input("还要继续吗？请说是或否 / 還要繼續嗎？請說是或否 / Continue? Please say yes or no\n")
+            d = input("还要继续吗？请说是或否 / 還要繼續嗎？請說是或否 / Continue? Please say yes or no\n")
             if d == '是' or d == 'yes' or d == 'Yes' or d == 'YES':
-                fengzi = input("分子量为多少？/ 分子量為多少？/ What is the molecular weight?\n")
+                
                 wendu = input("绝对温度是多少？/ 絕對溫度是多少？/ What is the absolute temperature?\n")
-                fengzi = float(fengzi)
+                
                 wendu = float(wendu)
               
-                osmotic_pressure = total_inflammatory /6.022*100,000,000,000,000 * 8.314 * wendu 
+                osmotic_pressure = total_inflammatory *  0.0001*0.001 * 8.314 * wendu 
                 print(f"炎症因子a渗透压{osmotic_pressure} Pa（1分钟以内）")  # 简体
                 print(f"炎症因子a滲透壓{osmotic_pressure} Pa（一分鐘以內")  # 繁体
                 print(f"Osmotic pressure of inflammatory factor a: {osmotic_pressure} Pa（Within a minute.）")  # English
