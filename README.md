@@ -21,8 +21,3 @@ Language support:​ Simplified Chinese, Traditional Chinese, and English.
 
 Whether you're a researcher looking for early drug screening tools 🔬, or a fellow coder who loves transparency and open source 🤝, I'm thrilled to connect. Let's push the boundaries of biophysics together! 🚀
 
-Dimensional Analysis and Calibration Constant
-
-
-The model input “inflammatory factor difference” is expressed in units of millions of molecules (10⁶ molecules), rather than conventional mass concentration (pg/mL). The user-supplied value already incorporates a front-end conversion from concentration to particle count, which involves Avogadro’s constant (Nₐ ≈ 6.022×10²³ mol⁻¹) and the molecular weight M.
-
