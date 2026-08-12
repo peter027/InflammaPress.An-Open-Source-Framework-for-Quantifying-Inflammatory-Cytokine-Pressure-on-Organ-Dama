@@ -41,7 +41,7 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
                 
                 wendu = float(wendu)
               
-                osmotic_pressure = total_inflammatory *  0.0001*0.001 * 8.314 * wendu 
+                osmotic_pressure = total_inflammatory * 1.38*0.00000000001* wendu 
                 print(f"炎症因子a渗透压{osmotic_pressure} Pa（1分钟以内）")  # 简体
                 print(f"炎症因子a滲透壓{osmotic_pressure} Pa（一分鐘以內")  # 繁体
                 print(f"Osmotic pressure of inflammatory factor a: {osmotic_pressure} Pa（Within a minute.）")  # English
