@@ -26,7 +26,7 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
 
         c = input("还要继续吗？请说是或否 / 還要繼續嗎？請說是或否 / Continue? Please say yes or no\n")
         if c == '是' or c == 'yes' or c == 'Yes' or c == 'YES':
-            o = input("炎症因子a与正常人相比差多少百万个（体积是1ml）\n 炎症因子a與正常人相比差多少百萬個（體積是1ml）\n How many million inflammatory factors a compared to normal (volume: 1ml)?\n ")
+            o = input("炎症因子a与正常人相比差多少百万个\n 炎症因子a與正常人相比差多少百萬個\n How many million inflammatory factors a compared to normal ?\n ")
             o = float(o)
             total_inflammatory = cardiac_output * o
             print(f"炎症因子a与正常人相比差{o}百万个，所以是{total_inflammatory}百万个")  # 简体
