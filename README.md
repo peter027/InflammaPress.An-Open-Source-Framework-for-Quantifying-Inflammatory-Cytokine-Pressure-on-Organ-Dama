@@ -21,4 +21,4 @@ Language support:​ Simplified Chinese, Traditional Chinese, and English.
 
 Whether you're a researcher looking for early drug screening tools 🔬, or a fellow coder who loves transparency and open source 🤝, I'm thrilled to connect. Let's push the boundaries of biophysics together! 🚀
 
-The white paper containing some of the formulas is in 321.jpg.
+
