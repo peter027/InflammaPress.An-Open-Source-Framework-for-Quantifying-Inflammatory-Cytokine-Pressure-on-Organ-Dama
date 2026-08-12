@@ -52,3 +52,4 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
         print("结束 / 結束 / End")
 else:
     print("结束 / 結束 / End")
+input("运行完毕，按回车键退出...")
