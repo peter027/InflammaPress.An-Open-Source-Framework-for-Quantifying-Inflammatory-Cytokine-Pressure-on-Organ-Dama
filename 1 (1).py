@@ -40,7 +40,7 @@ if a == '是' or a == 'yes' or a == 'Yes' or a == 'YES':
                 wendu = input("绝对温度是多少？/ 絕對溫度是多少？/ What is the absolute temperature?\n")
                 
                 wendu = float(wendu)
-              
+              #因为是百万个，所以相当于乘以10的6次方。ml变m的立方相当于乘以10的6次方，所以一般玻尔兹曼常数是1.38乘以10的负23次方，我这里是乘以10的负11次方是合理的。
                 osmotic_pressure = total_inflammatory * 1.38*0.00000000001* wendu 
                 print(f"炎症因子a渗透压{osmotic_pressure} Pa（1分钟以内）")  # 简体
                 print(f"炎症因子a滲透壓{osmotic_pressure} Pa（一分鐘以內")  # 繁体
