@@ -7,11 +7,9 @@ Instead of relying on unpredictable AI black boxes, I built InflammaPress​ fro
 
 How it works:​
 
-You only need to input three parameters:
+You only need to input two parameters:
 
 Number of inflammatory cytokines (unit: millions per 1 mL of blood)
-
-Molecular weight of the cytokine
 
 Absolute temperature (unit: Kelvin)
 
